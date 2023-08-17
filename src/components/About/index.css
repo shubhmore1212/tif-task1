@@ -1,7 +1,6 @@
 .about-container {
   height: 100vh;
-  width: 99vw;
-  /* background-color: aquamarine; */
+  width: 103vw;
 }
 
 .about-container > .content-container {
