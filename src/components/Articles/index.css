@@ -1,0 +1,21 @@
+.articles-container {
+  height: 100vh;
+  width: 100vw;
+  margin-left: 108px;
+  margin-top: 158px;
+}
+
+.articles-container .heading-container {
+  margin-top: 148px;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+  letter-spacing: 4%;
+  color: #0e2368;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  gap: 41px;
+}

@@ -1,0 +1,101 @@
+.footer {
+  width: 1440px;
+  height: 362px;
+  background-color: #f8f8f8;
+  margin-top: 148px;
+  display: flex;
+}
+
+.footer .logo {
+  margin-left: 103px;
+  margin-top: 123px;
+  width: 161px;
+  height: 125px;
+}
+
+.contact-us {
+  width: 232px;
+  height: 186px;
+  margin-top: 84px;
+  margin-left: 374px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-us h1 {
+  color: #0e2368;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+  font-size: 18.84px;
+  line-height: 27.22px;
+  letter-spacing: 3%;
+}
+
+.contact-us .address {
+  width: 217px;
+  height: 69px;
+}
+
+.contact-us .email,
+.phone {
+  margin-top: 18px;
+}
+
+.contact-us .email,
+.phone,
+.address {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 14.66px;
+  font-weight: 400;
+  color: #646874;
+}
+
+.more-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 104px;
+  margin-top: 84px;
+  width: 438px;
+  height: 186px;
+}
+
+.more-links .more {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.more-links .more h3,
+.links h3 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+  font-size: 18.84px;
+  line-height: 27px;
+  color: #0e2368;
+}
+
+.more-links p {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 14.66px;
+  line-height: 27px;
+  color: #646874;
+}
+
+.links {
+  margin-right: 10px;
+}
+
+.links .link-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.copy-right {
+  margin-top: 104px;
+}

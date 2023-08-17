@@ -1,0 +1,58 @@
+.card-container {
+  width: 381px;
+  height: 554px;
+  border-radius: 21px;
+  border: 1px solid #93a2d361;
+  display: flex;
+  flex-direction: column;
+  margin-top: 41px;
+  padding: 27px;
+}
+
+.image-box {
+  width: 326px;
+  height: 257px;
+  border-radius: 21px;
+  background-color: #0e2368;
+}
+
+.content-box {
+  width: 295px;
+  height: 194px;
+  margin-top: 27px;
+}
+
+.content-box .text-box h3 {
+  width: 285px;
+  height: 27px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 27px;
+}
+
+.content-box .text-box p {
+  width: 295px;
+  height: 81px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: -2%;
+  padding: 14px 0;
+  margin-bottom: 2rem;
+}
+
+.read-more-btn {
+  width: 131px;
+  height: 42px;
+  border-radius: 21px;
+  border: 1px solid #424961;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+  font-size: 16.44px;
+  line-height: 35.59px;
+  letter-spacing: 3%;
+  margin-top: 27.41px;
+  background-color: #ffffff;
+}
