@@ -8,3 +8,8 @@ export const cardDetails = [
   { image: card5, title: "Crunchwrap Supreme" },
   { image: card6, title: "Broccoli Cheese Soup" },
 ];
+
+export const ARTICLES = {
+  TOTAL_CARDS: 6,
+  CARDS_PER_PAGE: 3,
+};

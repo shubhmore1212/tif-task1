@@ -56,3 +56,36 @@
   margin-top: 27.41px;
   background-color: #ffffff;
 }
+
+.pagination-container {
+  margin-top: 64px;
+  margin-bottom: 65px;
+  display: flex;
+  justify-content: center;
+  margin-right: 10%;
+}
+
+.pagination-text {
+  padding: 0 14px;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.button-left,
+.button-right {
+  width: 28px;
+  height: 29px;
+  background-color: #ffffff;
+  border: 1px solid #afafaf;
+  border-radius: 5px;
+  align-self: center;
+  cursor: pointer;
+}
+
+@media (max-width: 376px) {
+  .pagination-container {
+    width: 120vmax;
+  }
+}

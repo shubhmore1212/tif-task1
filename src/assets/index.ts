@@ -11,6 +11,10 @@ import card6 from "./card6.png";
 import facebook from "./facebook.svg";
 import insta from "./insta.svg";
 import twitter from "./twitter.svg";
+import right from "./right.svg";
+import rightActive from "./right-active.svg";
+import left from "./left.svg";
+import leftActive from "./left-active.svg";
 
 export {
   logo,
@@ -26,4 +30,8 @@ export {
   insta,
   twitter,
   facebook,
+  right,
+  left,
+  leftActive,
+  rightActive,
 };

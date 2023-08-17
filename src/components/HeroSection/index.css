@@ -1,5 +1,6 @@
 .hero-container {
   display: flex;
+  width: 99vw;
 }
 
 .left {
@@ -8,6 +9,21 @@
 
 .right {
   width: 50%;
+}
+
+.right > div {
+  margin-left: 45px;
+}
+
+.logo-container {
+  position: absolute;
+  top: 33px;
+  left: 100px;
+}
+
+.logo-container .logo-img {
+  height: 107px;
+  height: 83px;
 }
 
 .home-page-text {
@@ -95,7 +111,7 @@
 /* MOBILE SCREENS*/
 @media (max-width: 376px) {
   .hero-container {
-    width: 100vmax;
+    width: 200%;
     flex-direction: column-reverse;
   }
   .left {
@@ -122,11 +138,13 @@
     margin-right: -100vw;
   }
 
-  .pizza-img {
+  .pizza-img,
+  .vector-img {
+    object-fit: cover;
     margin-left: 0rem;
   }
 
-  .vector-img {
-    margin-left: 0rem;
+  .logo-container {
+    display: none;
   }
 }
